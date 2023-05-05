@@ -3,6 +3,7 @@ import { View } from 'react-native';
 
 import Header from './components/header';
 import Footer from './components/footer';
+import Welcometext from './components/welcometext';
 export default function App() {
   return (
     <>
@@ -12,9 +13,12 @@ export default function App() {
           backgroundColor: '#495E57',
         }}>
         <Header />
+        <Welcometext />
       </View>
 
-      <Footer style={{ backgroundColor: '#495E57' }} />
+      <View
+        style={{
+        }}><Footer style={{backgroundColor: 'red'}}/></View>
     </>
   );
 }
